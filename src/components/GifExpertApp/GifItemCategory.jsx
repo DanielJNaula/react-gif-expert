@@ -1,3 +1,5 @@
+import PropTypes from 'prop-types'
+
 export const GifItemCategory = ( { title, url, id } ) => {
 
   return (
@@ -7,3 +9,8 @@ export const GifItemCategory = ( { title, url, id } ) => {
     </div>
   )
 }
+
+GifItemCategory.propTypes = {
+  title:PropTypes.string.isRequired,
+  url:PropTypes.string.isRequired
+};

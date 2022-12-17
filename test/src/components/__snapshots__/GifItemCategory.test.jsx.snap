@@ -1,0 +1,17 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Pruebas en componente <GifItemCategory /> El componente debe hacer snapshot 1`] = `
+<div>
+  <div
+    class="card"
+  >
+    <img
+      alt="Dragon Ball"
+      src="https://gifs/algo"
+    />
+    <p>
+      Dragon Ball
+    </p>
+  </div>
+</div>
+`;
